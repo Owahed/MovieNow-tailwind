@@ -98,7 +98,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* ----------------------------btn------------- */
 .btn-all{
   position: relative;
   display: inline-block;
@@ -115,3 +115,5 @@
 .btn-all:hover{
 background-color: salmon;
 }
+
+/* --------------------------slide---------- */

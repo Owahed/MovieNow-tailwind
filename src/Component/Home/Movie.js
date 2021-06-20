@@ -13,6 +13,7 @@ const Movie = ({ movie }) => {
         // console.log(movie)
 
     const url = `https://image.tmdb.org/t/p/w185${movie.poster_path}`
+    console.log(url)
     return (
         <div>
             
