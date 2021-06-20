@@ -11,7 +11,8 @@
   /* height: auto; */
 }
 .image:hover {
-  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  webkit-filter: blur(4px); 
+  /* Chrome, Safari, Opera */
   filter: blur(4px);
   /* transition: .5s ease; */
 }
@@ -35,7 +36,7 @@
 }
 
 .icon {
-  color: #007bff;
+  color: salmon;
   font-size: 100px;
   position: absolute;
   top: 50%;
@@ -92,3 +93,25 @@
   padding: 0;
 } */
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-all{
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: #03a9f4;
+  margin-top: 15px;
+  border-radius: 20px;
+  color: #fff;
+  text-transform: none;
+  font-weight: 400;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+.btn-all:hover{
+background-color: salmon;
+}

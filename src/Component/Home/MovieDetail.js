@@ -69,7 +69,10 @@ const MovieDetail = () => {
                 <div class="flex justify-center mt-3">
                     <div  className="inline-flex ">
                         <img className="h-32 w-36 " src={url} alt="" />
-                        <button class="mt-8 ml-5 px-4 w-3/4 h-12 rounded-lg bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 transform motion-safe:hover:scale-110 ">
+                        {/* <button class="mt-8 ml-5 px-4 w-3/4 h-12 rounded-lg bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 transform motion-safe:hover:scale-110 ">
+                            Watch now
+                        </button> */}
+                        <button class="btn-all ml-5 h-12">
                             Watch now
                         </button>
                     </div>

@@ -16,7 +16,7 @@ const TvShow = () => {
             .then(data => setMovies(data))
     }, []);
     return (
-        <div style={{ backgroundColor: '#131720', }} className="align-c">
+        <div style={{ backgroundColor: '#112D42', }} className="align-c">
             <h2 className="text-xl text-white py-10 pl-10 sm:text-center">Popular Tv Show </h2>
             <div class="grid gap-5 md:grid-cols-5 sm:grid-cols-1 justify-items-center" >
                 {
