@@ -3,6 +3,7 @@ import Movies from './Movies';
 import SelectYourPlan from './SelectYourPlan';
 import ContactUs from './ContactUs';
 import Slide from './Slide';
+import Footer from './Footer';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <SelectYourPlan/>
             <ContactUs/>
             <Slide/>
+            <Footer/>
         </div>
     );
 };

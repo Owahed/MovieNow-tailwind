@@ -8,12 +8,12 @@ const Movie = ({ movie }) => {
     
         const history = useHistory();
         const handelClick = (id) => {
-            history.push(`/product/${id}`)
+            history.push(`/show/${id}`)
         }
         // console.log(movie)
 
     const url = `https://image.tmdb.org/t/p/w185${movie.poster_path}`
-    console.log(url)
+    // console.log(url)
     return (
         <div>
             

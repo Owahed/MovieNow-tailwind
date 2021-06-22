@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import RecommendedMovie from './RecommendedMovie'
+import Footer from './Footer'
 
 const MovieDetail = () => {
     const { id } = useParams();
@@ -94,6 +95,7 @@ const MovieDetail = () => {
             </div>
             </div>
            </div>
+           <Footer/>
         </div>
     );
 };

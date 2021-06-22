@@ -12,7 +12,7 @@ const NavBarOne = () => {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            MovieNow
+            MoviesNow
             <i className="fas fa-code nav-logo-fa"></i>
           </NavLink>
 
@@ -42,12 +42,12 @@ const NavBarOne = () => {
             <li className="nav-item">
               <NavLink
                 exact
-                to="#"
+                to="/contactUs"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Blog
+               Contact Us
               </NavLink>
             </li>
             <li className="nav-item">
@@ -58,7 +58,7 @@ const NavBarOne = () => {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+                Log in
               </NavLink>
             </li>
           </ul>

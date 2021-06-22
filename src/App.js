@@ -8,6 +8,7 @@ import Home from './Component/Home/Home';
 import MovieDetail from './Component/Home/MovieDetail';
 import NavBarOne from './Component/Home/NavBarOne/NavBarOne';
 import TvShow from './Component/Home/TvShow';
+import ContactUs from './Component/Home/ContactUs';
 
 
 function App() {
@@ -19,11 +20,14 @@ function App() {
         <Route exact path="/">
             <Home />
           </Route>
-        <Route path="/product/:id">
+        <Route path="/show/:id">
             <MovieDetail></MovieDetail>
           </Route>
         <Route path="/tvShow">
             <TvShow></TvShow>
+          </Route>
+        <Route path="/contactUs">
+            <ContactUs/>
           </Route>
         </Switch>
       </Router>
